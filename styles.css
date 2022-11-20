@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    font-family: 'NunitoSans';
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'NunitoSans';
+    src: url('D:\HTML/шрифты/NunitoSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Yeseva';
+    src: url('D:\HTML/шрифты/YesevaOne-Regular.ttf');
+}
+
+.content{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.input[type="text"]{
+    background-color: #f3f3f3;
+    border: 1px solid #7e7e7e;
+    height: 30px;
+    color: #b2b2b2;
+    padding: 0 10px;
+    vertical-align: top;
+}
+
+.button{
+    color: white;
+    background: #e3b873;
+    border-radius: 2px;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    outline: 0;
+    border: 0;
+    padding: 20px 33px;
+    text-transform: uppercase;
+}
+
+.button-fantom{
+    color: white;
+    background: transparent;
+    border-radius: 2px;
+    border: 1px solid #ffffff;
+    padding: 19px 33px;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.p{
+    color: white;
+    font-family: 'NunitoSans';
+    font-size: 20px;
+    margin-top: 9px;
+}
+
+.header-nav{
+    list-style: none;
+    display: flex;
+}
+
+.nav{
+    margin-top: 42px;
+    margin: 0 auto;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+}
+
+.header-nav__item{
+    margin-right: 47px;
+    text-transform: uppercase;
+}
+
+.header-nav__item a{
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+    background-color: black;
+}
+
+.logo{
+    color: #e3b873;
+}
+
+.hero{
+    background-image: url("D:\HTML/фотки/комната.png");
+    background-size: cover;
+    height: 1100px;
+    padding-top: 410px;
+    padding-left: 134px;
+    position: relative;
+}
+
+.hero1{
+    background-color: black;
+    background-size: cover;
+    height: 1440px;
+    padding-top: 410px;
+    padding-left: 134px;
+    position: relative;
+}
+
+.hero-overlay{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.hero-container{
+    position: relative;
+    z-index: 1;
+}
+
+.title{
+    margin: 0;
+    font-family: 'Yeseva';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.title1{
+    margin: 0;
+    font-family: 'Yeseva';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.sp{
+    color: #e3b873;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.apartment_area{
+    margin-left: 124px;
+}
+
+.repair_cost{
+    margin-left: 50px;
+}
