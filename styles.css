@@ -151,6 +151,7 @@ body * {
 
 .sp{
     color: #e3b873;
+    text-transform: uppercase;
 }
 
 .wrapper{
@@ -163,4 +164,73 @@ body * {
 
 .repair_cost{
     margin-left: 50px;
+}
+
+.image_2{
+    margin-left: 240px;
+}
+
+.nav2{
+    display: flex;
+    height: 83px;
+    align-items: center;
+    list-style: none;
+    margin-left: 200px;
+    margin-bottom: 52px;
+    font-size: 20px;
+}
+
+.nav2_item{
+    margin-left: 60px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.sp1{
+    color: #e3b873;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.title_{
+    margin: 0;
+    font-family: 'Yeseva';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+}
+
+.hero1_{
+    background-color: black;
+    background-size: cover;
+    height: auto;
+    position: relative;
+}
+
+.kamera{
+    margin-left: 900px;
+    margin-top: 12px;
+}
+
+.hero1_img{
+    filter: brightness(40%);
+    
+}
+
+.hero1img{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.play{
+    position: absolute;
+    margin-right: 1000px;
+    top: 0;
+    left: 0;
+    margin-left: 870px;
+    margin-top: 300px;
 }
